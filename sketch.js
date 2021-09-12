@@ -12,11 +12,11 @@ function preload()
 }
 
 function setup() {
-	createCanvas(800, 700);
 
-	
+createCanvas(800, 7);
 
-	packageSprite=createSprite(width/2, 80, 10,10);
+
+    packageSprite=createSprite(width/2, 80, 10,10);
 	packageSprite.addImage(packageIMG)
 	packageSprite.scale=0.2
 
